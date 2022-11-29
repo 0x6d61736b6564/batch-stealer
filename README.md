@@ -20,4 +20,4 @@ if you do not check the code a batch could destroy your pc or steal your persona
 
 CREATE BY ANONYME ONLY
 
-skid = https://doxbin.com/user/anonyme_osint
+skid = https://doxbin.com/user/masked_
