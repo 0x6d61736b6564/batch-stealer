@@ -18,6 +18,6 @@ on your windows pc edit the batch file and double click on it
 - What are the risks?
 if you do not check the code a batch could destroy your pc or steal your personal information (passwords etc...)
 
-CREATE BY ANONYME ONLY
+CREATE BY MASKED ONLY
 
 skid = https://doxbin.com/user/masked_
